@@ -12,7 +12,8 @@
 .main-header{
   font-family: 'Open Sans', sans-serif;
   background-color:#1e2c2a5d;
-  width: 100%;
+  max-width: 100%;
+  min-width: 70%;
   height: 13vh;
   position: relative;
   
@@ -38,7 +39,7 @@
 .menu-items{
   color:#9ff708 ;
   /* background-color: antiquewhite; */
-  width:100vh;
+  
   margin-left: 20%;
   
   
@@ -48,13 +49,13 @@
   font-size: 1.1em;
   display:flex;
   list-style: none;
-  justify-content: space-between;
+  
  
 }
 
 .menu-item-li{
   padding-top: 40px;
-  padding-left: 10px;
+  padding-left: 40px;
   cursor: pointer;
   
 }
@@ -100,30 +101,26 @@
 
 .my-details-info{
   background-color: #14181494;
-  height: 50vh;
-  margin-top: 15vh;
+  height: auto;
+  margin: auto;
+  margin-top: 80px;
   border-radius: 5px;
-  border-left: 3px solid #11f00a;
+  border-left: 3px solid #13eb0c;
   display: flex;
-  align-items: center;
+  color: azure;
 }
 
-.details{
-  color:azure;
-  margin-left: 2px;
-  width:70%;
-  text-align-last: left;
-  
- 
+
+.details {
+  width:360px;
+  height: 300px;
+  background-color: #1e201e;
+  box-shadow: 0 0 20px 1e201e ;
 }
 
-.profile-image{
- margin-top: -38vh;
- /* width:50%; */
- position: absolute;
- margin-left: 55%;
+
+
  
-}
 
 
 
